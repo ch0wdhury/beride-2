@@ -199,6 +199,9 @@ footer a:hover {
 .footer_select {
 	width: 100%;
 	background: transparent;
+	-moz-background: transparent;
+	-o-background: transparent;
+	-webkit-background: transparent;
 	color: #909FA1;
 	padding: 5px 0;
 	margin-bottom: 5px;
