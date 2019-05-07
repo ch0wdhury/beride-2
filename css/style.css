@@ -1,0 +1,214 @@
+html, body {
+	overflow-x: hidden;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	background: url(../images/white-bg.png);
+}
+a {
+	text-decoration: none;
+}
+/* Alert for Backend Cookie */
+.alert-custom {
+	background: #333333;
+	color: #FFF;
+	text-align: center;
+	padding: 0;
+	min-height: 50px;
+	vertical-align: middle;
+}
+.top_alert_btn {
+	padding: 15px 30px;
+	color: #fff;
+	transition: .5s ease;
+}
+.top_alert_btn:hover {
+	color: #CFF;
+	background-color: #282923;
+}
+.alert_btn_border {
+	border-right: 1px solid #535353;
+	border-left: 1px solid #535353;
+	min-height: 50px;
+	vertical-align: middle;
+	margin-left: 50px;
+}
+/* Alert for Backend Cookie */
+/* Header Section Starts Here */
+.custom-navbar {
+	padding-bottom: 0;
+}
+.custom-nav li a {
+	padding: 0!important;
+}
+.custom-nav select {
+	margin-right: 5px;
+}
+.custom-brand img {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	width: 7%;
+}
+/* Header Section Ends Here */
+/* Banner Section Starts Here */
+.banner {
+	background-image: url(../images/partner_banner-bg.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	min-height: 100%;
+	padding: 20px 0;
+}
+.banner_texts {
+	color: #FFF;
+}
+.banner_texts h1 {
+	font-weight: 700;
+	font-size: 70px;
+	margin-top: 50px;
+	line-height: 1;
+}
+.banner_texts p {
+	font-weight: 300;
+	font-size: 20px;
+	color: #87EDFF;
+	padding: 20px 0;
+	padding-left: 80px;
+}
+.banner-btn {
+	padding: 15px 20px;
+	color: #FFF;
+	background-color: #BB1F24;
+	font-size: 36px;
+	font-weight: 700;
+	transition: .5s ease;
+}
+.banner-btn:hover {
+	color: #87EDFF;
+	text-decoration: none;
+}
+.banner_texts img {
+	width: 90%;
+	padding: 20px 0;
+}
+/* Banner Section Ends Here */
+/* Common Title Text */
+.common-title h1 {
+	font-size: 45px;
+	font-weight: 700;
+	margin-bottom: 30px;
+}
+/* Common Title Text */
+/* Why Should Be Listed Section Starts */
+.whyshould {
+	padding: 50px 0;
+}
+.listed_text h2 {
+	font-weight: 700;
+	color: #CC181E;
+	margin-bottom: 0;
+}
+.listed_text p {
+	font-weight: 300;
+	font-size: 16px;
+}
+/* Why Should Be Listed Section End */
+/* How it works Section Starts Here */
+.howitworks {
+	background-image: url(../images/partner-blue-bg-2.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	min-height: 100%;
+	color: #FFF;
+	padding: 30px 0;
+}
+.work_process_image {
+	margin-bottom: 20px;
+}
+.work_process_image img {
+	width: 80%;
+}
+.work_process_text h3 {
+	font-weight: 700;
+}
+.work_process_text p {
+	color: #000;
+	font-weight: 300;
+	padding: 0 40px;
+}
+
+/* How it works Section Ends Here */
+/* Promotional Efforts STarts Here */
+.promotion {
+	padding: 50px 0;
+}
+.promotion_text h2 {
+	font-weight: 700;
+	color: #CC181E;
+	letter-spacing: 1px;
+}
+.promotion_text p {
+	font-weight: 300;
+}
+.right_aligned_para p {
+	padding-left: 85px;
+}
+.left_aligned_para p {
+	padding-right: 85px;
+}
+/* Promotional Efforts Ends Here */
+/* Footer Section Starts Here */
+footer {
+	background-color: #1C3337;
+	padding: 40px 0;
+	color: #909FA1;
+}
+footer a {
+	color: #909FA1;
+	transition: .5s ease;
+}
+footer a:hover {
+	color: #909FA1;
+}
+.footer_about h2 {
+	font-size: 24px;
+	font-weight: 400;
+}
+.footer_about p {
+	font-size: 15px;
+	font-weight: 300;
+}
+.footer_about a, h5, li {
+	font-size: 15px;
+}
+.download_app {
+	margin-top: 15px;
+}
+.download_app a {
+	margin: 10px auto;
+}
+.footer_select {
+	width: 100%;
+	background: transparent;
+	color: #909FA1;
+	padding: 5px 0;
+	margin-bottom: 5px;
+	font-weight: 300;
+}
+.footer_social_icons a {
+	padding: 0;
+}
+.payment_gateways_icon li {
+	padding: 0;
+	margin: 0!important;
+}
+/* Footer Section Ends Here */
